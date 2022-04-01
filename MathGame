@@ -1,0 +1,262 @@
+import os, sys
+from random import randint
+
+a = '\033[1;32m'
+b = '\033[1;33m'
+c = '\033[1;34m'
+d = '\033[1;35m'
+e = '\033[1;36m'
+
+def clearscreen():
+	if sys.platform == "linux2":
+		os.system("clear")
+	elif sys.platform == "win32":
+		os.system("cls")
+	else:
+		os.system("clear")
+		
+banner =a+ """
+╔═╗╔═╗─────╔╗─╔╗──────╔═══╗────────────            
+║║╚╝║║────╔╝╚╗║║──────║╔═╗║────────────            
+║╔╗╔╗║╔══╗╚╗╔╝║╚═╗────║║─╚╝╔══╗╔╗╔╗╔══╗           
+║║║║║║║╔╗║─║║─║╔╗║────║║╔═╗║╔╗║║╚╝║║║═╣           
+║║║║║║║╔╗║─║╚╗║║║║────║╚╩═║║╔╗║║║║║║║═╣          
+╚╝╚╝╚╝╚╝╚╝─╚═╝╚╝╚╝────╚═══╝╚╝╚╝╚╩╩╝╚══╝         
+"""
+
+
+text = b+"Math Game\nUshbu Game bilimni charxlash uchun dasturlandi ! \nBu Game da sizlarga 20 ta + amaliga doir Misollari beriladi va siz bularni tog'ru topishingiz kerak va siz uzingizni bilimingiz qanchalik Yahshi ekanini bilib olishingiz mumkun. Misollar Tasodifiy ravshda beriladi va 1-dan boshlab 1000 gacha bolgan Sonlargacha Misollar bajariladi misol uchun\n1000-289= javobini yozishiz kere boladi..\n\nTestlarni boshlaymiz\n "
+
+dasturchi = c+"*Dasturchi: @darknet_off1cial\n *Kanalimiz: @Termux_private\n *kanalimiz: @magicbot_uz\n *Kanalimiz: @darknet7719\n *kanalimiz: @dn_uzbek\n"
+
+clearscreen()
+os.system("termux-open-url https://t.me/magicbot_uz")
+
+print(banner, dasturchi)
+dark = input('\033[1;35mEnter bosing..')
+
+
+
+
+print('\033[1;32mINFO: ', text.capitalize())
+
+#1-misol
+darknet = randint(1, 500)
+dark = randint(1, 500)
+c = int(input('{} + {} = '.format(darknet, dark)))
+
+if c == (darknet + dark):
+    print('\033[1;35mJavobingiz toğri')
+    
+else:
+    print('\033[1;36mJavobingiz afsuski XATO')
+#2-misol  
+darknet = randint(1, 500)
+dark = randint(1, 500)
+c = int(input('{} + {} = '.format(darknet, dark)))
+
+if c == (darknet + dark):
+    print('\033[1;35mJavobingiz toğri')
+    
+else:
+    print('\033[1;36mJavobingiz afsuski XATO')
+#3-misol   
+darknet = randint(1, 500)
+dark = randint(1, 500)
+c = int(input('{} + {} = '.format(darknet, dark)))
+
+if c == (darknet + dark):
+    print('\033[1;35mJavobingiz toğri')
+    
+else:
+    print('\033[1;36mJavobingiz afsuski XATO')
+#4-misol   
+darknet = randint(1, 500)
+dark = randint(1, 500)
+c = int(input('{} + {} = '.format(darknet, dark)))
+
+if c == (darknet + dark):
+    print('\033[1;35mJavobingiz toğri')
+    
+else:
+    print('\033[1;36mJavobingiz afsuski XATO')
+#5-misol   
+darknet = randint(1, 500)
+dark = randint(1, 500)
+c = int(input('{} + {} = '.format(darknet, dark)))
+
+if c == (darknet + dark):
+    print('\033[1;35mJavobingiz toğri')
+    
+else:
+    print('\033[1;36mJavobingiz afsuski XATO')
+
+#6-misol  
+darknet = randint(1, 500)
+dark = randint(1, 500)
+c = int(input('{} + {} = '.format(darknet, dark)))
+
+if c == (darknet + dark):
+    print('\033[1;35mJavobingiz toğri')
+    
+else:
+    print('\033[1;36mJavobingiz afsuski XATO')
+
+#7-misol 
+darknet = randint(1, 500)
+dark = randint(1, 500)
+c = int(input('{} + {} = '.format(darknet, dark)))
+
+if c == (darknet + dark):
+    print('\033[1;35mJavobingiz toğri')
+    
+else:
+    print('\033[1;36mJavobingiz afsuski XATO')
+    
+#8-misol
+darknet = randint(1, 500)
+dark = randint(1, 500)
+c = int(input('{} + {} = '.format(darknet, dark)))
+
+if c == (darknet + dark):
+    print('\033[1;35mJavobingiz toğri')
+    
+else:
+    print('\033[1;36mJavobingiz afsuski XATO')
+    
+#9-misol
+darknet = randint(1, 500)
+dark = randint(1, 500)
+c = int(input('{} + {} = '.format(darknet, dark)))
+
+if c == (darknet + dark):
+    print('\033[1;35mJavobingiz toğri')
+    
+else:
+    print('\033[1;36mJavobingiz afsuski XATO')
+#10-misol  
+darknet = randint(1, 500)
+dark = randint(1, 500)
+c = int(input('{} + {} = '.format(darknet, dark)))
+
+if c == (darknet + dark):
+    print('\033[1;35mJavobingiz toğri')
+    
+else:
+    print('\033[1;36mJavobingiz afsuski XATO')
+#11-misol   
+darknet = randint(1, 500)
+dark = randint(1, 500)
+c = int(input('{} + {} = '.format(darknet, dark)))
+
+if c == (darknet + dark):
+    print('\033[1;35mJavobingiz toğri')
+    
+else:
+    print('\033[1;36mJavobingiz afsuski XATO')
+#12-misol   
+darknet = randint(1, 500)
+dark = randint(1, 500)
+c = int(input('{} + {} = '.format(darknet, dark)))
+
+if c == (darknet + dark):
+    print('\033[1;35mJavobingiz toğri')
+    
+else:
+    print('\033[1;36mJavobingiz afsuski XATO')
+#13-misol   
+darknet = randint(1, 500)
+dark = randint(1, 500)
+c = int(input('{} + {} = '.format(darknet, dark)))
+
+if c == (darknet + dark):
+    print('\033[1;35mJavobingiz toğri')
+    
+else:
+    print('\033[1;36mJavobingiz afsuski XATO')
+
+#14-misol  
+darknet = randint(1, 500)
+dark = randint(1, 500)
+c = int(input('{} + {} = '.format(darknet, dark)))
+
+if c == (darknet + dark):
+    print('\033[1;35mJavobingiz toğri')
+    
+else:
+    print('\033[1;36mJavobingiz afsuski XATO')
+
+#15-misol 
+darknet = randint(1, 500)
+dark = randint(1, 500)
+c = int(input('{} + {} = '.format(darknet, dark)))
+
+if c == (darknet + dark):
+    print('\033[1;35mJavobingiz toğri')
+    
+else:
+    print('\033[1;36mJavobingiz afsuski XATO')
+    
+#16-misol
+darknet = randint(1, 500)
+dark = randint(1, 500)
+c = int(input('{} + {} = '.format(darknet, dark)))
+
+if c == (darknet + dark):
+    print('\033[1;35mJavobingiz toğri')
+    
+else:
+    print('\033[1;36mJavobingiz afsuski XATO')
+ 
+#17-misol
+darknet = randint(1, 500)
+dark = randint(1, 500)
+c = int(input('{} + {} = '.format(darknet, dark)))
+
+if c == (darknet + dark):
+    print('\033[1;35mJavobingiz toğri')
+    
+else:
+    print('\033[1;36mJavobingiz afsuski XATO')
+
+#18-misol
+darknet = randint(1, 500)
+dark = randint(1, 500)
+c = int(input('{} + {} = '.format(darknet, dark)))
+
+if c == (darknet + dark):
+    print('\033[1;35mJavobingiz toğri')
+    
+else:
+    print('\033[1;36mJavobingiz afsuski XATO')        
+ 
+#19-misol
+darknet = randint(1, 500)
+dark = randint(1, 500)
+c = int(input('{} + {} = '.format(darknet, dark)))
+
+if c == (darknet + dark):
+    print('\033[1;35mJavobingiz toğri')
+    
+else:
+    print('\033[1;36mJavobingiz afsuski XATO')
+
+#20-misol
+darknet = randint(1, 500)
+dark = randint(1, 500)
+c = int(input('{} + {} = '.format(darknet, dark)))
+
+if c == (darknet + dark):
+    print('\033[1;35mJavobingiz toğri')
+    
+else:
+    print('\033[1;36mJavobingiz afsuski XATO')    
+   
+    
+
+
+
+
+
+
+
